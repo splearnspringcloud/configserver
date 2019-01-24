@@ -1,0 +1,4 @@
+---
+text: Client Config
+server:
+  port: 8003

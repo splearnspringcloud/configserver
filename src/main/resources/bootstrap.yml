@@ -1,0 +1,14 @@
+---
+spring:
+  application:
+    name: configserver
+  profiles:
+    active: native
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/soundrapandian/configserver
+          basedir: config
+        native:
+          searchLocations: classpath:offline-repository/
